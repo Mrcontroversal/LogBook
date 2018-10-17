@@ -1,0 +1,11 @@
+#Task 2 showing inputs & outputs
+
+input ("please enter your number")
+int = ("num1")
+num=4
+num*=2
+num1=num+2
+num1+=3
+print (num1)
+
+'''this is to show input and output '''

@@ -1,3 +1,11 @@
+#task one demo of adding two numbers
+
+my_int = 10
+my_int = my_int + 9
+print (my_int)
+
+
+
 #Task 2 showing inputs & outputs
 
 input ("please enter your number")
@@ -9,3 +17,14 @@ num1+=3
 print (num1)
 
 '''this is to show input and output '''
+
+#task 3
+
+
+print(2/3)
+print (2//3)
+
+
+''' the reason why both of the equations has
+different answers are due to the 1st equation is a floting number
+where as the other one is an interger''

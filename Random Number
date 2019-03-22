@@ -1,0 +1,9 @@
+import time
+
+randomTime = time.time()
+
+randomnumber = randomTime * 1
+
+randomnumber = int(randomnumber %50)
+
+print("randomnumber:", randomnumber)

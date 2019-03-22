@@ -1,0 +1,20 @@
+d ={}
+
+d ["Ezra"]= 22
+
+d ["paul"]= 25
+
+d ["sarah"]= 24
+
+print(d["Ezra"])
+
+d ["jenny"] = 26
+
+print(d["jenny"])
+
+for name, age in d.items():
+    print("name:")
+    print(name)
+    print("age:")
+    print(age)
+    print("")

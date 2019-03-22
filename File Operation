@@ -5,4 +5,4 @@ outfile.write("python demo")
 outfile.write("/nsome text")
 #more characters added
 outfile.close()
-#closes programe so memeory wont be used
+#closes programe so memory wont be used

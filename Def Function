@@ -1,0 +1,24 @@
+def example():
+    #defining function name
+    print ("basic function")
+    print ("heeeeey")
+    #wont be displayed until called
+
+print ("this is not apart of the function")
+example()
+#Calling the function
+
+def example2(x):
+    #example 2 assigned to x
+    return 2*x
+    #returns value 2 x X
+a =example2(3)
+#return value
+print(a)
+
+def example3(x,y):
+    return x + y
+e = example3(1,2)
+print(e)
+#adding two arguements together
+    

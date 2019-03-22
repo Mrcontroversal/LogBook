@@ -1,16 +1,17 @@
 d ={}
-
+#Generating a new dictionary
 d ["Ezra"]= 22
-
+#Assigning the new name and value to the dictionary
 d ["paul"]= 25
 
 d ["sarah"]= 24
 
 print(d["Ezra"])
 
-d ["jenny"] = 26
-
-print(d["jenny"])
+d ["sarah"] = 26
+#assigning sarah with a new value
+print(d["sarah"])
+print("")
 
 for name, age in d.items():
     print("name:")
@@ -18,3 +19,10 @@ for name, age in d.items():
     print("age:")
     print(age)
     print("")
+#grouping names and values
+    
+while 1:
+    name = input("enter name: ")
+    if name == "quit": break
+#Initiated Loop the work 'quit' will stop it
+

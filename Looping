@@ -1,0 +1,23 @@
+a = ("mango","pineapple","pear")
+#Cat 1
+
+for element in a:
+    print(element)
+    print(element)
+    #examples of looping
+    print("")
+    
+b = (20,10,5)
+#Cat 2
+total = 0
+for e in b:
+    total = total + e
+    #Adding the total of A to the value of E
+    print(total)
+
+c = list(range(1, 5))
+#Cat 3 numbers ranging from 1 to 4
+print(c)
+print("")
+for i in range (1, 5):
+    print(i)

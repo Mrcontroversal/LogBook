@@ -1,9 +1,14 @@
 language ="java"
+    #assigning variable to an statement
 
 if language =="python":
     print("Lauguage is Python")
+    #if true will print out statement
+    
 elif language =="java":
     print("Language is Java")
+    #if true will print out statement
+    
 else:
     print("no match")
-    
+    #if false will print out "no match"

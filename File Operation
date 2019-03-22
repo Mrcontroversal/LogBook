@@ -1,0 +1,8 @@
+outfile = open("output.txt", "wt")
+#creating a text file
+outfile.write("python demo")
+#character withing the text file
+outfile.write("/nsome text")
+#more characters added
+outfile.close()
+#closes programe so memeory wont be used
